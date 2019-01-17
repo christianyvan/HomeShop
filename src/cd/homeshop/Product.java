@@ -5,7 +5,13 @@ public class Product {
     private String description;
     private double price;
 
-    public void buy(Bill bill,Integer quantity){
+    public Product(String name, String description, double price) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+    }
+
+    public void buy(Bill bill, Integer quantity){
 
     }
 
